@@ -1,0 +1,122 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.25rem;
+    line-height: 30px;
+    color: #6c757d;
+}
+
+/* Navigation */
+
+nav .r-nav {
+    background: white;
+    padding: 20px 0;
+    transition: .5 all;
+}
+
+nav .navbar-brand {
+    font-size: 50px;
+    color: #000;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+nav .navbar-nav li a {
+    color: black;
+    outline-color: #000;
+    font-size: 20px;
+    letter-spacing: 0, 05em;
+    font-weight: 600;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+nav .navbar-nav li {
+    margin-left: 15px;
+}
+
+.navbar-nav {}
+
+nav.r-nav.stickyadd {
+    background: #fff !important;
+    padding: 15px 0;
+    box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
+    transition: .5s all ease-in-out;
+}
+
+nav.stickyadd .navbar-brand {
+    color: black;
+    font-size: 40px;
+    transition: .5s all;
+}
+
+nav.stickyadd .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar .hamburger {
+    color: #000;
+}
+
+nav.stickyadd .hamburger {
+    color: #000;
+}
+
+.full-screen-bg {
+    background: url("img/Homepage2.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#navigation {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}
+
+.tab-pane {
+    height: 100vh;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    color: #F39200;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1,6rem;
+}
+h1{
+	color: #F39200;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3rem;
+}
+.btn{
+	width: 100%;
+} 
+
+.carousel-item {
+	height: auto;
+	width: 100vh;
+}
+
+carousel-item{
+	transform: scale(1.0);
+}
+h1{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 5rem;
+}
